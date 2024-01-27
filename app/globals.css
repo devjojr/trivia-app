@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #121212;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+button {
+  padding: 16px 8px;
+  width: 100%;
+  margin-top: 12px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #26a69a;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+
+button.btn-disabled {
+  background-color: #757575;
+  cursor: not-allowed;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 9px 0;
+  padding: 16px 8px;
+  color: #121212;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+
+.li-hover:hover {
+  background-color: #e0e0e0;
+}
+
+.li-selected {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+.container {
+  max-width: 740px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.triviaQuestion-container {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.triviaQuestion-container p {
+  color: black;
+}
+
+.container p {
+  padding: 8px 0;
+}
